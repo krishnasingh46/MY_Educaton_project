@@ -271,6 +271,9 @@ nav .navigation ul li a:hover {
     bottom: 100px;
 
 }
+#courses-inner .overview .course-head span {
+    padding: 12px 9px;
+}
 
 
 /* footer */
@@ -356,6 +359,9 @@ footer .copyright {
     flex-wrap: wrap;
 }
 
+footer .pro-link {
+    margin-top: 20px;
+}
 footer .pro-link i {
     /* border: 2px solid red; */
     padding: 7px;
@@ -677,6 +683,7 @@ display: none;
     #home {
         width: 100%;
         height: 94vh;
+        padding-top: 189px;
     }
     nav .menu-btn i{
         display: block;
@@ -728,10 +735,12 @@ display: none;
         position: absolute;
         left: 10px;
     }
+    
     #home a.blue {
         position: absolute;
         left: 25px;
     }
+
     #home a.yellow {
         position: absolute;
         right: 25px;
@@ -742,10 +751,10 @@ display: none;
         color: cyan;
     }
     #home p {
-        font-size: 20px;
+        font-size: 16px;
     }
     #home a {
-        font-size: 16px;
+        font-size: 11px;
     }
     #home {
         background-size: unset;
@@ -755,6 +764,7 @@ display: none;
     #features {
         padding: 70px 30px 8px 30px;
     }
+    
     #registration .reminder .time .date {
         font-size: 11px;
         padding: 10px 10px;
@@ -763,9 +773,33 @@ display: none;
         display: flex;
     }
     footer .form .email {
+       
+       
+    }
+    footer .form .subscribe {
+        font-size: 13px;
+        font-weight: 400;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-left: 10px;
+        width: 97px;
+        padding: 8px 6px;
+        background: #de3030;
+        border: none;
+        outline: none;
+        color: #fff;
+    }
+
+    footer .form .email {
         font-size: 15px;
         width: 195px;
-       
+      
+        padding: 8px 6px;
+        background: #000000;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        color: rgb(3, 196, 255);
     }
     #click:checked ~ ul {
         left: -1px;
