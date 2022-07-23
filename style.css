@@ -1083,7 +1083,7 @@ nav .navigation {
 }
 
 #contact .getin {
-    width: 350px;
+    width: 340px;
 }
 
 #contact .getin h2 {
@@ -1682,6 +1682,7 @@ nav ul li a.active {
     .glogis .bubble2 {
         cursor: pointer;
         margin-top: 15vh;
+        width: 200px;
     }
 
     /* CONTACT RESPONSIVE  */
@@ -1694,6 +1695,7 @@ nav ul li a.active {
     #contact .form {
         width: 100%;
         margin-top: 20px;
+        padding: 18px;
     }
 
     #contact .form .form-row input {
