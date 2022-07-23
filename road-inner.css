@@ -633,8 +633,12 @@ nav ul li a.active{
         margin-left: 57px;
     }
     #home .btn {
-        margin-top: 72px;
+        margin-top: 20px;
         width: 54%;
+    }
+     #front_container .blogs img {
+        height: 23vh;
+        margin-bottom: 25px;
     }
     #registration {
         display: block;
