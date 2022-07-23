@@ -713,8 +713,8 @@ display: none;
     }
     nav ul li a {
         font-size: 20px;
+        padding: 10px;
     }
-
     #click:checked ~ ul {
         left: -1px;
         padding-top: 30px;
