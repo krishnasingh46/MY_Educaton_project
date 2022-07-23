@@ -1486,13 +1486,13 @@ nav ul li a.active {
 
     }
 
-    nav ul {
+     nav ul {
         position: fixed;
         top: 70px;
         left: -100%;
         background: #2cb8bf;
         height: 100vh;
-        width: 55%;
+        width: 58%;
         display: block;
     }
 
@@ -1549,8 +1549,10 @@ nav ul li a.active {
         color: cyan;
     }
 
+    
     #home p {
         font-size: 16px;
+        margin-left: 27px;
     }
 
     #home a {
@@ -1615,8 +1617,8 @@ nav ul li a.active {
         transition: all 0.4s ease;
     }
 
-    #course {
-        padding: 8vw 8vw 8vw 8vw;
+      #course {
+        padding: 8vw 8vw 8vw 5vw;
         text-align: center;
         MARGIN-TOP: 2vh;
     }
